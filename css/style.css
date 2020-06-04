@@ -1,0 +1,104 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    width: 70%;
+    margin: 0 auto;
+    background-image: url('../img/woodenwall.jpg');
+    background-size: cover;
+    background-position: center center;
+    background-repeat: repeat;
+    font-family: 'Noto Sans TC', sans-serif;
+}
+
+/* specifiche per l'header con logo e titolo*/
+.logoimg {
+    height: 100px;
+    line-height: 100px;
+    vertical-align: middle;
+    font-size: 400;
+}
+
+h1 {
+    display: inline-block;
+    color: white;
+    font-weight: 100;
+}
+
+#logo_header {
+    padding: 10px;
+    border-bottom: 2px solid grey;
+}
+
+h4 {
+    color: white;
+    display: inline-block;
+    font-weight: 100;
+}
+/* /specifiche per l'header con logo e titolo*/
+/* specifiche per sezione search - counter mail */
+#form_zone {
+    padding: 10px;
+    border-bottom: 2px solid grey;
+    margin-bottom: 10px;
+}
+
+.mail_counter{
+    padding-top: 7px;
+}
+
+.punto {
+    background: orange;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    display: inline-block;
+    text-align: center;
+    line-height: 40px;
+    margin: 1px;
+}
+/* /specifiche per sezione search - counter mail */
+/* specifiche per sezione lista email */
+#mail_list {
+    padding-bottom: 10px;
+    border-bottom: 2px solid grey;
+}
+
+li {
+    list-style: none;
+}
+
+.mail_object {
+    color: black;
+}
+
+.mail_unread {
+    background-color: grey;
+    border: 1px solid black;
+    font-size: 12px;
+    color: #f2f2f2;
+
+}
+.mail_read {
+    background-color: #e8e8e8;
+    border: 1px solid black;
+    font-size: 12px;
+    color: #918f8f;
+}
+/* /specifiche per sezione lista email */
+
+footer {
+    color: white;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    text-align:center;
+    font-size: 14px;
+    font-weight:bolder;
+}
+
+.gmail {
+    font-size: 20px;
+}
